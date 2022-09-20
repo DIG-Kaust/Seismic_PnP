@@ -45,7 +45,7 @@ Finally, to run tests simply type:
 pytest
 ```
 
-**Disclaimer:** All experiments have been carried on a Intel(R) Xeon(R) CPU @ 2.10GHz equipped with a single NVIDIA GEForce RTX 3090 GPU. Different environment 
+**Disclaimer:** For computer time, this research used the resources of the Supercomputing Laboratory at KAUST in Thuwal, Saudi Arabia. All experiments have been carried on a Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz equipped with a single NVIDIA TESLA V100. Different environment 
 configurations may be required for different combinations of workstation and GPU.
 
 ## Cite us 
