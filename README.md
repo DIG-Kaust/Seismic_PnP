@@ -1,7 +1,7 @@
 ![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)
 
-Reproducible material for **XXX -
-Ravasi M., Author M., Author C.** submitted to XXX.
+Reproducible material for **Plug and Play Post-Stack Seismic Inversion with CNN-based Denoisers -
+Romero J., Corrales M., Luiken N., Ravasi M.** submitted to Second EAGE Subsurface Intelligence Workshop, 28-31 October 2022, Manama, Bahrain
 
 
 ## Project structure
