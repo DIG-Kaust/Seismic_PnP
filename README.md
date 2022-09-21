@@ -38,6 +38,8 @@ Remember to always activate the environment by typing:
 ```
 conda activate pnpseismic
 ```
+## Pre-trained Models
+For more details of the Pre-trained Deep Denoisers used in this study, please refer to the following repositories: https://github.com/cszn/DnCNN and https://github.com/cszn/DPIR.  
 
 **Disclaimer:** For computer time, this research used the resources of the Supercomputing Laboratory at KAUST in Thuwal, Saudi Arabia. All experiments have been carried on a Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz equipped with a single NVIDIA TESLA V100. Different environment 
 configurations may be required for different combinations of workstation and GPU.
