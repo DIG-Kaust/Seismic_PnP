@@ -7,14 +7,15 @@ Romero J., Corrales M., Luiken N., Ravasi M.** submitted to Second EAGE Subsurfa
 ## Project structure
 This repository is organized as follows:
 
-:open_file_folder: **package**: python library containing routines for ....;
-:open_file_folder: **data**: folder containing data (or instructions on how to retrieve the data.
+- :open_file_folder: **data**: Marmousi impedance synthetic model.
+- :open_file_folder: **models**: folder containing pre-trained models (DnCNN and DRUnet).
+- :open_file_folder: **notebooks**: folder containing the notebook example for PnP and Deep denoisers.
+- :open_file_folder: **utils**: Deep denoisers architectures and PnP framework.
 
 ## Notebooks
 The following notebooks are provided:
 
-- :orange_book: ``X1.ipynb``: notebook performing ...;
-- :orange_book: ``X2.ipynb``: notebook performing ...
+- :orange_book: ``X1.ipynb``: notebook performing the comparison between model-based regularization and Plug and Play. ...;
 
 
 ## Getting started :space_invader: :robot:
@@ -35,12 +36,7 @@ pip install -e .
 
 Remember to always activate the environment by typing:
 ```
-conda activate my_env
-```
-
-Finally, to run tests simply type:
-```
-pytest
+conda activate pnpseismic
 ```
 
 **Disclaimer:** For computer time, this research used the resources of the Supercomputing Laboratory at KAUST in Thuwal, Saudi Arabia. All experiments have been carried on a Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz equipped with a single NVIDIA TESLA V100. Different environment 
