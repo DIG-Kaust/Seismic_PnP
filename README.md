@@ -7,10 +7,8 @@ Romero J., Corrales M., Luiken N., Ravasi M.** submitted to Second EAGE Subsurfa
 ## Project structure
 This repository is organized as follows:
 
-* :open_file_folder: **package**: python library containing routines for ....;
-* :open_file_folder: **data**: folder containing data (or instructions on how to retrieve the data
-* :open_file_folder: **notebooks**: set of jupyter notebooks reproducing the experiments in the paper (see below for more details);
-* :open_file_folder: **scripts**: set of python scripts used to run multiple experiments ...
+:open_file_folder: **package**: python library containing routines for ....;
+:open_file_folder: **data**: folder containing data (or instructions on how to retrieve the data.
 
 ## Notebooks
 The following notebooks are provided:
