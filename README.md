@@ -9,7 +9,6 @@ This repository is organized as follows:
 
 - :open_file_folder: **data**: Marmousi impedance synthetic model.
 - :open_file_folder: **models**: folder containing pre-trained models (DnCNN and DRUnet).
-- :open_file_folder: **notebooks**: folder containing the notebook example for PnP and Deep denoisers.
 - :open_file_folder: **utils**: Deep denoisers architectures and PnP framework.
 
 ## Notebooks
