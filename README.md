@@ -14,7 +14,7 @@ This repository is organized as follows:
 ## Notebooks :orange_book:
 The following notebooks are provided:
 
-- :orange_book: ``X1.ipynb``: notebook performing the comparison between model-based regularization and Plug and Play. ...;
+- :orange_book: ``PnP_PD_Post-Stack_Seismic_Inversion_marmousi.ipynb``: notebook performing the comparison between model-based regularization and Plug and Play. ...;
 
 
 ## Getting started :space_invader: :robot:
