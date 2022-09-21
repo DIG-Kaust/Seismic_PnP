@@ -36,5 +36,10 @@ configurations may be required for different combinations of workstation and GPU
 ## Pre-trained Models
 For more details of the Pre-trained Deep Denoisers used in this study, please refer to the following repositories: https://github.com/cszn/DnCNN and https://github.com/cszn/DPIR.  
 
+## Authors
+- Juan Romero
+- Miguel Corrales
+- Nick Luiken
+- Matteo Ravassi
 
 ## Cite us 
