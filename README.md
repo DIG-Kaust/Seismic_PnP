@@ -5,14 +5,14 @@ Romero J., Corrales M., Luiken N., and Ravasi M.** \
 submitted to Second EAGE Subsurface Intelligence Workshop, 28-31 October 2022, Manama, Bahrain
 
 
-## Project structure :clipboard:
+## Project structure 
 This repository is organized as follows:
 
 - :open_file_folder: **data**: Marmousi impedance synthetic model.
 - :open_file_folder: **models**: folder containing pre-trained models (DnCNN and DRUnet).
 - :open_file_folder: **utils**: Deep denoisers architectures and PnP framework.
 
-## Notebooks :orange_book:
+## Notebooks 
 The following notebooks are provided:
 
 - :orange_book: ``PnP_PD_Post-Stack_Seismic_Inversion_marmousi.ipynb``: notebook performing the comparison between model-based regularization and Plug and Play. ...;
@@ -37,4 +37,4 @@ configurations may be required for different combinations of workstation and GPU
 For more details of the Pre-trained Deep Denoisers used in this study, please refer to the following repositories: https://github.com/cszn/DnCNN and https://github.com/cszn/DPIR.  
 
 
-## Cite us :black_nib:
+## Cite us 
