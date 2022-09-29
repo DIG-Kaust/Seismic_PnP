@@ -5,7 +5,7 @@ def src(pth):
     return os.path.join(os.path.dirname(__file__), pth)
 
 # Project description
-descr = 'My project description.'
+descr = 'Seismic_PnP'
 
 setup(
     name="package", # Choose your package name
@@ -21,8 +21,8 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Topic :: Scientific/Engineering :: Mathematics'
     ],
-    author='Matteo Ravasi, Second author, Third author',
-    author_email='matteo.ravasi@kaust.edu.sa, second.auth@kaust.edu.sa, third.auth@kaust.edu.sa',
+    author='Juan Romero, Miguel Corrales, Nick Luiken, Matteo Ravasi',
+    author_email='juan.romeromurcia@kaust.edu.sa, miguel.corrales@kaust.edu.sa, nicolaas.luiken@kaust.edu.sa, matteo.ravasi@kaust.edu.sa',
     install_requires=['numpy >= 1.15.0',
                       'torch >= 1.2.0',
                       'pylops >= 1.17.0'],
