@@ -25,7 +25,14 @@ Simply run:
 ```
 ./install_env.sh
 ```
-
+It will take some time, if at the end you see the word `Done!` on your terminal you are ready to go. After that you can simply install your package:
+```
+pip install .
+```
+or in developer mode:
+```
+pip install -e .
+```
 Remember to always activate the environment by typing:
 ```
 conda activate pnpseismic
