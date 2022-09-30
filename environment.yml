@@ -9,11 +9,12 @@ dependencies:
   - numpy>=1.15.0
   - scipy>=1.4.0
   - cudatoolkit=11.3
+  - setuptools>=61.2.0
   - matplotlib
   - pylops
   - ipython
   - jupyter
-  - pytorch==1.10.1=py3.9_cuda11.3_cudnn8.2.0_0
+  - pytorch==1.10.1
   - torchvision
   - pip:
     - cupy-cuda113
