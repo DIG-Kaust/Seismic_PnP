@@ -8,7 +8,7 @@ def src(pth):
 descr = 'Seismic_PnP'
 
 setup(
-    name="package", # Choose your package name
+    name="pnpseismic", # Choose your package name
     description=descr,
     long_description=open(src('README.md')).read(),
     keywords=['inverse problems',
@@ -31,7 +31,7 @@ setup(
     packages=find_packages(),
     use_scm_version=dict(root='.',
                          relative_to=__file__,
-                         write_to=src('package/version.py')),
+                         write_to=src('pnpseismic/version.py')),
     setup_requires=['setuptools_scm'],
 
 )
