@@ -1,0 +1,5 @@
+numpy>=1.15.0
+torch==1.10.1
+pyproximal
+pylops>=1.17.0
+setuptools>=61.2.0

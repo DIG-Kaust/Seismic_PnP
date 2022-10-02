@@ -31,6 +31,11 @@ def scaling_DRUNET(model, img, tau, sigma, verb=False):
 
     #Shifting and Scaling    
     if verb: print(f'img, min{img.min()}, max{img.max()}')
+    
+    if img.min() == 0 and img.min() == 0:
+        # Input is all zeros, simply return it as is
+        return img
+        
     img_min = img.min()
     numerator = img - img_min
     scaled_img = numerator/numerator.max()
@@ -43,8 +48,7 @@ def scaling_DRUNET(model, img, tau, sigma, verb=False):
        mode='constant', constant_values=0) 
         
     # Create sigma map
-    sigmamap = sqrt(sigma * tau)
-    sigmamap = torch.tensor(sigmamap, dtype=torch.float).repeat(1, 1, scaled_img.shape[0], scaled_img.shape[1])
+    sigmamap = torch.tensor(sigma, dtype=torch.float).repeat(1, 1, scaled_img.shape[0], scaled_img.shape[1])
     scaled_img = torch.cat((torch.from_numpy(scaled_img).unsqueeze(0).unsqueeze(0), sigmamap), dim=1)
 
     Denoise_img = model(scaled_img.to(cuda0))
