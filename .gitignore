@@ -16,6 +16,8 @@ db.sqlite3
 build
 dist
 package.egg-info/
+eggs/
+.eggs/
 
 # setuptools_scm generated  #
 package/version.py 
