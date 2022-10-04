@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch.nn.init as init
 import math
-import utils.basicblock as B
+import pnpseismic.basicblock as B
 
 
 

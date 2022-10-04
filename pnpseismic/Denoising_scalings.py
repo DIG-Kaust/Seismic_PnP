@@ -27,7 +27,7 @@ def Denoiser_scale_iter(model, img, tau, verb=False):
     return Denoise_img
 
 
-def scaling_DRUNET(model, img, tau, sigma, verb=False):
+def scaling_DRUNET(model, img, mu, sigma, verb=False):
 
     #Shifting and Scaling    
     if verb: print(f'img, min{img.min()}, max{img.max()}')
@@ -48,6 +48,8 @@ def scaling_DRUNET(model, img, tau, sigma, verb=False):
        mode='constant', constant_values=0) 
         
     # Create sigma map
+    sigma = sqrt(sigma * mu)
+#     print('sigma level used: %.3f' % sigma)
     sigmamap = torch.tensor(sigma, dtype=torch.float).repeat(1, 1, scaled_img.shape[0], scaled_img.shape[1])
     scaled_img = torch.cat((torch.from_numpy(scaled_img).unsqueeze(0).unsqueeze(0), sigmamap), dim=1)
 
