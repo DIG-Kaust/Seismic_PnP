@@ -1,4 +1,4 @@
-![LOGO](https://github.com/DIG-Kaust/Seismic_PnP/blob/main/utils/PnP_logo.png)  
+![LOGO](https://github.com/DIG-Kaust/Seismic_PnP/blob/main/PnP_logo.png)  
 
 Reproducible material for **Plug and Play Post-Stack Seismic Inversion with CNN-based Denoisers \
 Romero J., Corrales M., Luiken N., and Ravasi M.** \
