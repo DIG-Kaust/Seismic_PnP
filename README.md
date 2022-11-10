@@ -46,3 +46,20 @@ For more details of the Pre-trained Deep Denoisers used in this study, please re
 
 
 ## Cite us 
+
+```
+@article{eage:/content/papers/10.3997/2214-4609.2022616015,
+   author = "Romero, J. and Corrales, M. and Luiken, N. and Ravasi, M.",
+   title = "Plug and Play Post-Stack Seismic Inversion with CNN-Based Denoisers", 
+   journal= "",
+   year = "2022",
+   volume = "2022",
+   number = "1",
+   pages = "1-5",
+   doi = "https://doi.org/10.3997/2214-4609.2022616015",
+   url = "https://www.earthdoc.org/content/papers/10.3997/2214-4609.2022616015",
+   publisher = "European Association of Geoscientists &amp; Engineers",
+   issn = "2214-4609",
+   type = "",
+  }
+```
