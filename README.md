@@ -1,4 +1,4 @@
-![LOGO](https://github.com/DIG-Kaust/Seismic_PnP/blob/main/utils/PnP_logo.png)  
+![LOGO](https://github.com/DIG-Kaust/Seismic_PnP/blob/main/PnP_logo.png)  
 
 Reproducible material for **Plug and Play Post-Stack Seismic Inversion with CNN-based Denoisers \
 Romero J., Corrales M., Luiken N., and Ravasi M.** \
@@ -10,12 +10,13 @@ This repository is organized as follows:
 
 - :open_file_folder: **data**: Marmousi impedance synthetic model.
 - :open_file_folder: **models**: folder containing pre-trained models (DnCNN and DRUnet).
-- :open_file_folder: **utils**: Deep denoisers architectures and PnP framework.
+- :open_file_folder: **notebooks**: jupyter notebook reproducing the experiments in the paper.
+- :open_file_folder: **pnpseismic**: package of the project (Deep denoisers architectures and PnP framework).
 
 ## Notebooks 
 The following notebooks are provided:
 
-- :orange_book: ``PnP_PD_Post-Stack_Seismic_Inversion_marmousi.ipynb``: notebook performing the comparison between model-based regularization and Plug and Play. ...;
+- :orange_book: ``PnP_PD_Post-Stack_Seismic_Inversion_marmousi.ipynb``: notebook performing the comparison between model-based regularization and Plug and Play.
 
 
 ## Getting started :space_invader: :robot:
@@ -45,3 +46,20 @@ For more details of the Pre-trained Deep Denoisers used in this study, please re
 
 
 ## Cite us 
+
+```
+@article{eage:/content/papers/10.3997/2214-4609.2022616015,
+   author = "Romero, J. and Corrales, M. and Luiken, N. and Ravasi, M.",
+   title = "Plug and Play Post-Stack Seismic Inversion with CNN-Based Denoisers", 
+   journal= "",
+   year = "2022",
+   volume = "2022",
+   number = "1",
+   pages = "1-5",
+   doi = "https://doi.org/10.3997/2214-4609.2022616015",
+   url = "https://www.earthdoc.org/content/papers/10.3997/2214-4609.2022616015",
+   publisher = "European Association of Geoscientists &amp; Engineers",
+   issn = "2214-4609",
+   type = "",
+  }
+```
