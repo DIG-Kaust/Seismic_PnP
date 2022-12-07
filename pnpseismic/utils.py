@@ -9,6 +9,7 @@ def callback(x, y, xtrue, xhist, yhist, errhistx, errhisty):
     yhist.append(y)
     errhistx.append(np.linalg.norm(x - xtrue) / np.linalg.norm(xtrue))
     errhisty.append(np.linalg.norm(y - xtrue) / np.linalg.norm(xtrue))
-    
-def snr(x, xest):
-    return 20 * np.log( np.linalg.norm(x) / np.linalg.norm(x-xest))
+       
+def snr(xref, xest):
+    xrefv = np.mean(np.abs(xref) ** 2)
+    return 10. * np.log10( xrefv / np.mean(np.abs(xref - xest)**2))
