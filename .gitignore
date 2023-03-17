@@ -25,3 +25,5 @@ package/version.py
 # Development #
 .ipynb_checkpoints/
 
+# large files
+models/drunet_gray.pth
